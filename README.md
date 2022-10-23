@@ -1,1 +1,2 @@
-https://github.com/beanboi7/yomomma-apiv2
+This project was created to test out the custom React hook I created for easy handling of states ('isLoading','error','data') with http requests. It's situated in`hooks->use-http.js`<br>
+I started googling some free apis to test my custom hook, got this list from github https://github.com/public-apis/public-apis The apis here are great and fun. I selected a 'YoMamma' joke generator api and hence created this project. Link of the api I've used-https://github.com/beanboi7/yomomma-apiv2. The jokes are pretty funny!
