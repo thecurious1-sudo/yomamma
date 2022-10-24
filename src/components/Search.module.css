@@ -1,7 +1,7 @@
 .searchBar {
     display: flex;
     justify-content: space-around;
-    margin-right: 3%;
+    /* margin-right: 3%; */
 }
 
 .searchInput {
@@ -19,7 +19,7 @@
 @media(max-width:475px) {
     .searchInput {
         font-size: 1.09rem;
-        margin-left: 4%;
+        /* margin-left: 4%; */
     }
 }
 
@@ -31,12 +31,20 @@
 
 @media(max-width:400px) {
     .searchInput {
+        padding: 10px;
         font-size: 0.9rem;
     }
 }
 
 @media(max-width:372px) {
     .searchInput {
-        font-size: 0.79rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media(max-width:365px) {
+    .searchInput {
+        padding: 8px;
+        font-size: 0.8rem;
     }
 }
