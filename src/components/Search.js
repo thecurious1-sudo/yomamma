@@ -5,6 +5,7 @@ const Search = (props) => {
   return (
     <div className={styles.searchBar}>
       <input
+        className={styles.searchInput}
         ref={props.searchRef}
         type="text"
         placeholder="Try keywords like 'ugly' or 'fat' or 'stupid' or 'poor' etc"

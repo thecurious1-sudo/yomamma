@@ -4,7 +4,7 @@
     margin-right: 3%;
 }
 
-.searchBar input {
+.searchInput {
     min-width: 170%;
     padding: 12px;
     border-radius: 4px;
@@ -12,21 +12,31 @@
     font-size: 1.1rem;
 }
 
+.searchInput:focus-visible {
+    outline: none;
+}
+
 @media(max-width:475px) {
-    .searchBar input {
+    .searchInput {
         font-size: 1.09rem;
         margin-left: 4%;
     }
 }
 
 @media(max-width:450px) {
-    .searchBar input {
+    .searchInput {
         font-size: 1rem;
     }
 }
 
 @media(max-width:400px) {
-    .searchBar input {
+    .searchInput {
         font-size: 0.9rem;
+    }
+}
+
+@media(max-width:372px) {
+    .searchInput {
+        font-size: 0.79rem;
     }
 }

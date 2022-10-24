@@ -50,6 +50,8 @@ footer {
 
 footer img {
   width: 50px;
+  position: fixed;
+  bottom: 30px;
 }
 
 @media(max-width:500px) {
