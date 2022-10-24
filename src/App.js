@@ -5,8 +5,8 @@ import LoadingSpinner from "./components/LoadingSpinner";
 import Search from "./components/Search";
 import useHttp from "./hooks/use-http";
 import Error from "./components/Error";
-const url = "https://yomomma-api.herokuapp.com/jokes";
-const url2 = "https://yomomma-api.herokuapp.com/search";
+const url = "https://yomamma-api.herokuapp.com/jokes";
+const url2 = "https://yomamma-api.herokuapp.com/search";
 
 function App() {
   const searchRef = useRef();
@@ -20,6 +20,7 @@ function App() {
   };
   useEffect(() => {
     myRequest.get({ url });
+    // myRequest.get2(url);
   }, []);
   let content;
   if (myRequest.loading) content = <LoadingSpinner />;

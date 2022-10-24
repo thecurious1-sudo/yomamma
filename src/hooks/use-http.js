@@ -20,12 +20,18 @@ const useHttp = () => {
         setData(response.data);
       } else setError("No Joke Found!");
     } catch (error) {
+      console.log(error);
       setError(error.message);
     }
     setLoading(false);
   }, []);
 
-  return { data, loading, error, get };
+  const get2 = async (url) => {
+    const resp = await fetch(url);
+    console.log(resp);
+  };
+
+  return { data, loading, error, get, get2 };
 };
 
 export default useHttp;
