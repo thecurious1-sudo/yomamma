@@ -5,8 +5,8 @@ import LoadingSpinner from "./components/LoadingSpinner";
 import Search from "./components/Search";
 import useHttp from "./hooks/use-http";
 import Error from "./components/Error";
-const url = "https://yomamma-api.herokuapp.com/jokes";
-const url2 = "https://yomamma-api.herokuapp.com/search";
+const url = "https://yomamma-api.cyclic.app/jokes";
+const url2 = "https://yomamma-api.cyclic.app/search";
 
 function App() {
   const searchRef = useRef();

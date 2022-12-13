@@ -12,7 +12,7 @@ const useHttp = () => {
       const response = await axios.get(configs.url, {
         params: configs.params ? configs.params : {},
       });
-      // console.log(response.data);
+      //console.log(response.data);
       if (
         response.data.joke ||
         (response.data.results && response.data.results.length > 0)
